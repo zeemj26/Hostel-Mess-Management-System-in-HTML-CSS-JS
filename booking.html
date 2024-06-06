@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Book a Meal:: Hostel Mess Management System</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="mess.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="booking.html" class="active">Book a Meal</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="content">
+        <h3><b>Book a Meal</b></h3>
+        <form id="bookingForm">
+            <label for="meal">Choose a meal:</label>
+            <select id="meal" name="meal">
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+            </select><br>
+            <label for="date">Choose a date:</label>
+            <input type="date" id="date" name="date"><br>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <input type="submit" value="Book Meal">
+        </form>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+        <p>HOSTEL MESS MANAGEMENT SYSTEM<br> A.U.M.C, Multan</p>
+        <p>&copy; 2024 - All Rights Reserved</p>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="mess.js"></script>
+</body>
+</html>
